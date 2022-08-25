@@ -1,6 +1,6 @@
 from django import template
 from django.conf import settings
-from django.utils import six
+import six
 
 register = template.Library()
 
